@@ -29,8 +29,19 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import headphone from "./headphone.png";
+import crypto from "./crypto.png";
+import blog from "./blog.png";
+import commerce from "./commerce.png";
+import concentramind from "./concentramind.png";
+
 
 export {
+  headphone,
+  blog,
+  commerce,
+  crypto,
+  concentramind,
   logo,
   backend,
   creator,

@@ -23,6 +23,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  commerce,
+  concentramind,
+  blog,
+  headphone,
+  crypto
 } from "../assets";
 
 export const navLinks = [
@@ -153,33 +158,33 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Gabriel has created many impressive projects using different programming languages, frameworks, and tools. He is always willing to learn new concepts, tackle challenges, and enhance their code quality.",
+    name: "Murilo Varges",
+    designation: "PHD Professor",
+    company: "IFSP",
+    image: "https://media.licdn.com/dms/image/C4D03AQGzW3CiSzpxmA/profile-displayphoto-shrink_800_800/0/1574876120135?e=2147483647&v=beta&t=oy7josarnqfClEE86InY3-K2wIICwxTA6UQ_15xs8FE",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Gabriel does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "He can code in multiple languages and frameworks, and he always delivers high-quality work. He has a knack for making beautiful and user-friendly interfaces. Gabriel is always up to date with the latest trends and innovations in web development",
+    name: "Cassio Onodera",
+    designation: "Master Professor",
+    company: "IFSP",
+    image: "https://media.licdn.com/dms/image/C5603AQEgWWrAOenNZw/profile-displayphoto-shrink_400_400/0/1516584626283?e=1701302400&v=beta&t=n05xSSD-0HzWvZ_t8ha-aXgHeNPMppzjUZ-DyXcF2oQ",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Gabriel is an excellent web developer who has created many impressive websites and applications. He has a good knowledge of HTML, CSS, JavaScript, and other web technologies.",
+    name: "Edmar Santos",
+    designation: "PHD Professor",
+    company: "IFSP",
+    image: "https://media.licdn.com/dms/image/D4D03AQG5SwZcL6p28A/profile-displayphoto-shrink_400_400/0/1679969753361?e=1701302400&v=beta&t=8iAc6Oi-MIHCJUv6vkPUZ4Wg2JJMoeFqCIQpVZ-Y6Ag",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ConcentraMind",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -188,19 +193,19 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "frontend",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "API",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: concentramind,
+    source_code_link: "https://github.com/GabrielGruppo/orgueduMain",
   },
   {
-    name: "Job IT",
+    name: "Cryptoverse",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -212,16 +217,54 @@ const projects = [
         name: "restapi",
         color: "green-text-gradient",
       },
+    ],
+    image: crypto,
+    source_code_link: "https://github.com/GabrielGruppo/project_cryptoverse-main",
+  },
+  {
+    name: "PHP Blog",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
       {
-        name: "scss",
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: blog,
+    source_code_link: "https://github.com/GabrielGruppo/phpblog",
   },
   {
-    name: "Trip Guide",
+    name: "Ecommerce",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "commercejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: commerce,
+    source_code_link: "https://github.com/GabrielGruppo/ecommerceReactApp",
+  },
+  {
+    name: "Headset ecommerce",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -230,7 +273,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "sanity",
         color: "green-text-gradient",
       },
       {
@@ -238,8 +281,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: headphone,
+    source_code_link: "https://github.com/GabrielGruppo/headsetEcommerce",
   },
 ];
 
